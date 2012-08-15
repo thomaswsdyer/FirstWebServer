@@ -9,8 +9,8 @@ function start(route, handle) {
 		}
 	
 	// Create and start the server
-	http.createServer(onRequest).listen(1337, "10.1.0.105");
-	console.log('Server running at http://10.1.0.105:1337');
+	http.createServer(onRequest).listen(1337, "127.0.0.1");
+	console.log('Server running at http://localhost:1337');
 }
 
 exports.start = start;

@@ -1,7 +1,10 @@
 Project: node.js Web Server
-Name: Tom Dyer
-Date: 2012-02-09
+Name: Tom Dyer (thomaswsdyer)
+Date Written: 2012-02-09
+Date Updated
 
 First web server written in node.js
 
-Allows upload on a image file to server and displays that image file.
+v0.1 - Allows upload on a image file to server and displays that image file.
+
+v1.0 - Refactored to be a quick framework server to add request handlers into.

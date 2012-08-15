@@ -3,9 +3,12 @@ var router = require("./router");
 var requestHandlers = require("./requestHandlers");
 
 var handle = {}
+// Handlers for home requests
 handle["/"] = requestHandlers.home;
-handle["/start"] = requestHandlers.start;
-handle["/upload"] = requestHandlers.upload;
-handle["/show"] = requestHandlers.show;
+handle["/home"] = requestHandlers.home;
+
+/*
+ * Add request handlers here
+ */
 
 server.start(router.route, handle);
