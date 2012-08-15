@@ -17,3 +17,5 @@ function home(response) {
 /*
  * Add exports for handlers here
  */
+
+exports.home = home;
