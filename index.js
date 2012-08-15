@@ -10,5 +10,6 @@ handle["/home"] = requestHandlers.home;
 /*
  * Add request handlers here
  */
+handle["/jstest"] = requestHandlers.jstest;
 
 server.start(router.route, handle);
